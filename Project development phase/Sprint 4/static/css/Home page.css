@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(/static/images/hpbg.jpg);
+    background-size:100% 400px;
+    background-repeat: no-repeat;
+    background-color: rgba(217, 235, 241, 0.726);
+}
+ul li{
+    list-style: none;
+    font-size: 16px;
+    font-family:Arial;
+    margin-left:48px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(19, 88, 179, 0.795);
+    font-weight: bold;
+    transition: text 0.2s ease;
+}
+.text{
+    width:1200px;
+    height:auto;
+    margin:auto;
+    color:white; 
+}
+.content{
+    font-size: 50px;
+    padding: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -5px;
+}
+.polaroid-wrapper{
+    padding-inline: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 664px) {
+  .polaroid-wrapper{
+    flex-direction: column;
+  }
+}
+div.polaroid {
+    width: 200px;
+    height:235px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 664px) {
+  div.polaroid{
+    width: 350px;
+    height:235px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 664px) {
+  img.one{
+    width: 350px;
+    height: 180px;
+  }
+}
+div.container {
+    justify-content: center;
+    text-align: center;
+    padding: 10px 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white
+}
+div.container p a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+div.container p a:hover{
+    color:rgb(233, 240, 136);
+}
+div.polaroid1 {
+    width: 200px;
+    height:235px;
+    background-color:  rgb(26, 25, 25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 664px) {
+  div.polaroid1{
+    width: 350px;
+    height:235px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 664px) {
+  img.three{
+    width: 350px;
+    height: 180px;
+  }
+}
+div.container1 {
+    justify-content: center;
+    text-align: center;
+    padding: 10px 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white
+}
+div.container1 p a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+div.container1 p a:hover{
+    color:rgb(233, 240, 136);
+}   
+div.polaroid2 {
+    width: 200px;
+    height:235px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 664px) {
+  div.polaroid2{
+    width: 350px;
+    height:235px;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 664px) {
+  img.two{
+    width: 350px;
+    height: 180px;
+  }
+}
+div.container2 {
+    justify-content: center;
+    text-align: center;
+    padding: 10px 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}  
+div.container2 p a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+div.container2 p a:hover{
+    color:rgb(233, 240, 136);
+}
