@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+    background-image:url(Predbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul li{
+    list-style: none;
+    font-size: 16px;
+    font-family:Arial;
+    margin-left:48px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(19, 88, 179, 0.795);
+    font-weight: bold;
+}
+ .container{
+    position: relative;
+    width:100px;
+    top:50px;
+    margin-bottom: 100px;
+    background-image: linear-gradient(120deg,gray,white);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:25px;
+    box-shadow: 0px 0px 116px -31px black;
+}
+.container form .form1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+form .form1 .input{
+    padding: 10px 30px;
+    width: calc(100% / 2 - 20px)    
+}
+.title{
+    justify-content: center;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    border-radius: 10px;
+    padding:10px ;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom:5px;  
+}
+.input label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.form1 .input input{
+    width: 420px;
+    height: 35px;
+    margin-left: 25px;
+    background-color:rgba(228, 226, 226, 0.842);
+    border: 1px solid black; 
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    color:black;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:3px;
+    outline-color: rgba(228, 226, 226, 0.842);
+    border-radius: 10px;
+}
+.in{
+    width: 420px;
+    height: 35px;
+    margin-left: 25px;
+    background-color:rgba(228, 226, 226, 0.842);
+    border: 1px solid black; 
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:3px;
+    outline-color: rgba(228, 226, 226, 0.842);
+    border-radius: 10px;
+}
+button#calculate {
+    position: relative;
+    width:300px;
+    background-color:rgb(88, 87, 87);
+    text-align: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding:10px ;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+    transition: background 0.2s ease;
+}
+button#calculate:hover {
+    background:gray;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media (max-width: 1203px){
+    .container{
+        max-width: 100%;
+    }
+    .in{
+        width: 375px;
+    }
+    #AGE{
+        width:375px;
+    } 
+    #BLOOD_UREA{
+        width:375px;
+    } 
+    #BLOOD_GLUCOSE_RANDOM{
+        width:375px;
+    } 
+}  
+@media (max-width: 993px){
+    .container{
+        max-width: 100%;
+    }
+    form .form1 .input{
+        margin-bottom: 15px;
+        width:100%;
+        margin-left: 80px;
+    }
+    .in{
+        width: 420px;
+    }
+    #AGE{
+        width:420px;
+    } 
+    #BLOOD_UREA{
+        width:420px;
+    } 
+    #BLOOD_GLUCOSE_RANDOM{
+        width:420px;
+    } 
+}
+@media (max-width: 769px){
+    .container{
+        max-width: 100%;
+    }
+    form .form1 .input{
+        margin-bottom: 15px;
+        width:100%;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 579px){
+    .container{
+        max-width: 90%;
+    }
+    form .form1 .input{
+        margin-bottom: 15px;
+        width:100%;  
+    }
+    .in{
+        width: 330px;
+    }  
+    #AGE{
+        width:330px;
+    } 
+    #BLOOD_UREA{
+        width:330px;
+    } 
+    #BLOOD_GLUCOSE_RANDOM{
+        width:330px;
+    }   
+}
+
+
+.sub-menu{
+    display:none;
+    position: absolute;
+}
+#hlo:hover .sub-menu{
+    display: block;
+    background-color:rgb(82, 80, 80);
+    color: white;
+    font-size: 15px;
+    font-weight: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    padding-top:15px;
+    padding-right: 48px;
+}  
