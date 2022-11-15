@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+    background-image:url(infobg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul li{
+    list-style: none;
+    font-size: 16px;
+    font-family:Arial;
+    margin-left:48px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(19, 88, 179, 0.795);
+    font-weight: bold;
+}
+.container{
+    width:1200px;
+    height:auto;
+    margin:auto;
+    color:black; 
+}
+.hold{
+    font-size: 32px;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.par{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.uni ul li{
+    list-style-type: square;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
